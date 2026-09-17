@@ -1,0 +1,9 @@
+services:
+  unifi-wifi-qr:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      CONTROLLER_URL : ${CONTROLLER_URL}
+      API_KEY: ${API_KEY}
+      WIFI_SID: "${WIFI_SID}"

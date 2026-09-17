@@ -1,0 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>Join {WIFI-SID}</title>
+    </head>
+    <body>
+        <div style="width:30em; margin:0 auto;">
+            <div style="margin-top: 2em; margin-bottom: 2em; text-align: center;">Join the Network {WIFI-SID} using the QR-Code or the Password "{WIFI-PASSWORD}" (without the outer quotes)!</div>
+            <img src="qr-code.png" alt="QR Code" style="width: -webkit-fill-available;">
+        </div>
+    </body>
+</html>
